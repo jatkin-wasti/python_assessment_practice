@@ -31,3 +31,7 @@
 shopping_list = {"Milk": 0.85, "Bread": 0.80, "Crisps": 1.00}
 print(type(shopping_list))
 print(shopping_list["Bread"])
+
+# Replace the price for Bread with 1.45
+shopping_list["Bread"] = 1.45
+print(shopping_list["Bread"])
